@@ -222,4 +222,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/mocha/proprietary/vendor/firmware/touch_fusion.cfg:system/vendor/firmware/touch_fusion.cfg \
     vendor/xiaomi/mocha/proprietary/usr/keylayout/tegra-rt5671_headphone_detect.kl:system/usr/keylayout/tegra-rt5671_headphone_detect.kl \
     vendor/xiaomi/mocha/proprietary/usr/keylayout/atmel-maxtouch.kl:system/usr/keylayout/atmel-maxtouch.kl \
-    vendor/xiaomi/mocha/proprietary/usr/keylayout/synaptics_dsx.kl:system/usr/keylayout/synaptics_dsx.kl
+    vendor/xiaomi/mocha/proprietary/usr/keylayout/synaptics_dsx.kl:system/usr/keylayout/synaptics_dsx.kl \
+    vendor/xiaomi/mocha/proprietary/vendor/lib/libconnctrl.so:system/vendor/lib/libconnctrl.so \
+    vendor/xiaomi/mocha/proprietary/vendor/lib/libcsm_data.so:system/vendor/lib/libcsm_data.so \
+    vendor/xiaomi/mocha/proprietary/vendor/lib/libdatactrl.so:system/vendor/lib/libdatactrl.so
