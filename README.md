@@ -1,2 +1,2 @@
-android_vendor_Xiaomi_mocha
+android_vendor_Xiaomi_mocha_newEGL
 ===========================
