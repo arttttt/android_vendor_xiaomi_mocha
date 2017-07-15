@@ -109,120 +109,79 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/mocha/proprietary/vendor/bin/touch_fusion:system/vendor/bin/touch_fusion \
     vendor/xiaomi/mocha/proprietary/vendor/bin/touch_fusion_rd:system/vendor/bin/touch_fusion_rd \
     vendor/xiaomi/mocha/proprietary/vendor/bin/ussrd:system/vendor/bin/ussrd \
-    vendor/xiaomi/mocha/proprietary/vendor/lib/drm/libdrmwvmplugin.so:system/vendor/lib/drm/libdrmwvmplugin.so \
-    vendor/xiaomi/mocha/proprietary/vendor/lib/hw/gralloc.tegra.so:system/vendor/lib/hw/gralloc.tegra.so \
-    vendor/xiaomi/mocha/proprietary/vendor/lib/hw/hwcomposer.tegra.so:system/vendor/lib/hw/hwcomposer.tegra.so \
-    vendor/xiaomi/mocha/proprietary/vendor/lib/libardrv_dynamic.so:system/vendor/lib/libardrv_dynamic.so \
-    vendor/xiaomi/mocha/proprietary/vendor/lib/libaudioavp.so:system/vendor/lib/libaudioavp.so \
-    vendor/xiaomi/mocha/proprietary/vendor/lib/libcgdrv.so:system/vendor/lib/libcgdrv.so \
-    vendor/xiaomi/mocha/proprietary/vendor/lib/libcuda.so:system/vendor/lib/libcuda.so \
+    vendor/xiaomi/mocha/proprietary/vendor/lib/egl/libEGL_tegra.so::system/vendor/lib/egl/libEGL_tegra.so \
+    vendor/xiaomi/mocha/proprietary/vendor/lib/egl/libGLESv1_CM_tegra.so::system/vendor/lib/egl/libGLESv1_CM_tegra.so \
+    vendor/xiaomi/mocha/proprietary/vendor/lib/egl/libGLESv2_tegra.so::system/vendor/lib/egl/libGLESv2_tegra.so \
+    vendor/xiaomi/mocha/proprietary/vendor/lib/hw/gralloc.tegra.so::system/vendor/lib/hw/gralloc.tegra.so \
+    vendor/xiaomi/mocha/proprietary/vendor/lib/hw/hwcomposer.tegra.so::system/vendor/lib/hw/hwcomposer.tegra.so \
+    vendor/xiaomi/mocha/proprietary/vendor/lib/mediadrm/libdrmclearkeyplugin.so::system/vendor/lib/mediadrm/libdrmclearkeyplugin.so \
+    vendor/xiaomi/mocha/proprietary/vendor/lib/mediadrm/libwvdrmengine.so::system/vendor/lib/mediadrm/libwvdrmengine.so \
+    vendor/xiaomi/mocha/proprietary/vendor/lib/libaudioavp.so::system/vendor/lib/libaudioavp.so \
+    vendor/xiaomi/mocha/proprietary/vendor/lib/libbt-vendor.so::system/vendor/lib/libbt-vendor.so \
+    vendor/xiaomi/mocha/proprietary/vendor/lib/libclcore_nvidia.so::system/vendor/lib/libclcore_nvidia.so \
+    vendor/xiaomi/mocha/proprietary/vendor/lib/libconnctrl.so:system/vendor/lib/libconnctrl.so \
+    vendor/xiaomi/mocha/proprietary/vendor/lib/libcsm_data.so:system/vendor/lib/libcsm_data.so \
+    vendor/xiaomi/mocha/proprietary/vendor/lib/libdatactrl.so:system/vendor/lib/libdatactrl.so \
     vendor/xiaomi/mocha/proprietary/vendor/lib/libdrmdecrypt.so:system/vendor/lib/libdrmdecrypt.so \
-    vendor/xiaomi/mocha/proprietary/vendor/lib/libEGL_perfhud.so:system/vendor/lib/libEGL_perfhud.so \
-    vendor/xiaomi/mocha/proprietary/vendor/lib/libEGL_tegra_impl.so:system/vendor/lib/libEGL_tegra_impl.so \
-    vendor/xiaomi/mocha/proprietary/vendor/lib/libfcamdng.so:system/vendor/lib/libfcamdng.so \
-    vendor/xiaomi/mocha/proprietary/vendor/lib/libGLESv1_CM_tegra_impl.so:system/vendor/lib/libGLESv1_CM_tegra_impl.so \
+    vendor/xiaomi/mocha/proprietary/vendor/lib/libfrsdk.so:system/vendor/lib/libfrsdk.so \
     vendor/xiaomi/mocha/proprietary/vendor/lib/libglcore.so:system/vendor/lib/libglcore.so \
-    vendor/xiaomi/mocha/proprietary/vendor/lib/libGLESv2_tegra_impl.so:system/vendor/lib/libGLESv2_tegra_impl.so \
-    vendor/xiaomi/mocha/proprietary/vendor/lib/libGLESv2_perfhud.so:system/vendor/lib/libGLESv2_perfhud.so \
-    vendor/xiaomi/mocha/proprietary/vendor/lib/libgov_boot.so:system/vendor/lib/libgov_boot.so \
-    vendor/xiaomi/mocha/proprietary/vendor/lib/libgov_camera.so:system/vendor/lib/libgov_camera.so \
-    vendor/xiaomi/mocha/proprietary/vendor/lib/libgov_combinator.so:system/vendor/lib/libgov_combinator.so \
-    vendor/xiaomi/mocha/proprietary/vendor/lib/libgov_force.so:system/vendor/lib/libgov_force.so \
-    vendor/xiaomi/mocha/proprietary/vendor/lib/libgov_generic.so:system/vendor/lib/libgov_generic.so \
-    vendor/xiaomi/mocha/proprietary/vendor/lib/libgov_gpucompute.so:system/vendor/lib/libgov_gpucompute.so \
-    vendor/xiaomi/mocha/proprietary/vendor/lib/libgov_graphics.so:system/vendor/lib/libgov_graphics.so \
-    vendor/xiaomi/mocha/proprietary/vendor/lib/libgov_il.so:system/vendor/lib/libgov_il.so \
-    vendor/xiaomi/mocha/proprietary/vendor/lib/libgov_tbc.so:system/vendor/lib/libgov_tbc.so \
-    vendor/xiaomi/mocha/proprietary/vendor/lib/libjni_nvremoteprotopkg.so:system/vendor/lib/libjni_nvremoteprotopkg.so \
-    vendor/xiaomi/mocha/proprietary/vendor/lib/libjni_nvremote.so:system/vendor/lib/libjni_nvremote.so \
-    vendor/xiaomi/mocha/proprietary/vendor/lib/libjni-nvwfd-sink.so:system/vendor/lib/libjni-nvwfd-sink.so \
+    vendor/xiaomi/mocha/proprietary/vendor/lib/libhtcacoustic.so:system/vendor/lib/libhtcacoustic.so \
+    vendor/xiaomi/mocha/proprietary/vendor/lib/libLifevibes_lvverx.so:system/vendor/lib/libLifevibes_lvverx.so \
+    vendor/xiaomi/mocha/proprietary/vendor/lib/libLifevibes_lvvetx.so:system/vendor/lib/libLifevibes_lvvetx.so \
+    vendor/xiaomi/mocha/proprietary/vendor/lib/libmdmdetect.so:system/vendor/lib/libmdmdetect.so \
     vendor/xiaomi/mocha/proprietary/vendor/lib/libnvapputil.so:system/vendor/lib/libnvapputil.so \
-    vendor/xiaomi/mocha/proprietary/vendor/lib/libnvasfparserhal.so:system/vendor/lib/libnvasfparserhal.so \
-    vendor/xiaomi/mocha/proprietary/vendor/lib/libnvaudioservice.so:system/vendor/lib/libnvaudioservice.so \
-    vendor/xiaomi/mocha/proprietary/vendor/lib/libnvaviparserhal.so:system/vendor/lib/libnvaviparserhal.so \
     vendor/xiaomi/mocha/proprietary/vendor/lib/libnvavp.so:system/vendor/lib/libnvavp.so \
     vendor/xiaomi/mocha/proprietary/vendor/lib/libnvblit.so:system/vendor/lib/libnvblit.so \
     vendor/xiaomi/mocha/proprietary/vendor/lib/libnvcamerahdr.so:system/vendor/lib/libnvcamerahdr.so \
-    vendor/xiaomi/mocha/proprietary/vendor/lib/libnvcamerahdr_v3.so:system/vendor/lib/libnvcamerahdr_v3.so \
-    vendor/xiaomi/mocha/proprietary/vendor/lib/libnvcameratools.so:system/vendor/lib/libnvcameratools.so \
     vendor/xiaomi/mocha/proprietary/vendor/lib/libnvcam_imageencoder.so:system/vendor/lib/libnvcam_imageencoder.so \
-    vendor/xiaomi/mocha/proprietary/vendor/lib/libnvcapaudioservice.so:system/vendor/lib/libnvcapaudioservice.so \
     vendor/xiaomi/mocha/proprietary/vendor/lib/libnvcapclk.so:system/vendor/lib/libnvcapclk.so \
-    vendor/xiaomi/mocha/proprietary/vendor/lib/libnvcap.so:system/vendor/lib/libnvcap.so \
-    vendor/xiaomi/mocha/proprietary/vendor/lib/libnvcap_video.so:system/vendor/lib/libnvcap_video.so \
     vendor/xiaomi/mocha/proprietary/vendor/lib/libnvcms.so:system/vendor/lib/libnvcms.so \
-    vendor/xiaomi/mocha/proprietary/vendor/lib/libnvcontrol_jni.so:system/vendor/lib/libnvcontrol_jni.so \
-    vendor/xiaomi/mocha/proprietary/vendor/lib/libnvcpl.so:system/vendor/lib/libnvcpl.so \
+    vendor/xiaomi/mocha/proprietary/vendor/lib/libnvcompute.so:system/vendor/lib/libnvcompute.so \
     vendor/xiaomi/mocha/proprietary/vendor/lib/libnvddk_2d.so:system/vendor/lib/libnvddk_2d.so \
     vendor/xiaomi/mocha/proprietary/vendor/lib/libnvddk_2d_v2.so:system/vendor/lib/libnvddk_2d_v2.so \
     vendor/xiaomi/mocha/proprietary/vendor/lib/libnvddk_vic.so:system/vendor/lib/libnvddk_vic.so \
     vendor/xiaomi/mocha/proprietary/vendor/lib/libnvfusebypass.so:system/vendor/lib/libnvfusebypass.so \
     vendor/xiaomi/mocha/proprietary/vendor/lib/libnvglsi.so:system/vendor/lib/libnvglsi.so \
     vendor/xiaomi/mocha/proprietary/vendor/lib/libnvgr.so:system/vendor/lib/libnvgr.so \
-    vendor/xiaomi/mocha/proprietary/vendor/lib/libnvhrcv.so:system/vendor/lib/libnvhrcv.so \
-    vendor/xiaomi/mocha/proprietary/vendor/lib/libnvisp.so:system/vendor/lib/libnvisp.so \
     vendor/xiaomi/mocha/proprietary/vendor/lib/libnvisp_v3.so:system/vendor/lib/libnvisp_v3.so \
-    vendor/xiaomi/mocha/proprietary/vendor/lib/libnvme_msenc.so:system/vendor/lib/libnvme_msenc.so \
+    vendor/xiaomi/mocha/proprietary/vendor/lib/libnvmm.so:system/vendor/lib/libnvmm.so \
     vendor/xiaomi/mocha/proprietary/vendor/lib/libnvmm_audio.so:system/vendor/lib/libnvmm_audio.so \
-    vendor/xiaomi/mocha/proprietary/vendor/lib/libnvmm_camera.so:system/vendor/lib/libnvmm_camera.so \
     vendor/xiaomi/mocha/proprietary/vendor/lib/libnvmm_camera_v3.so:system/vendor/lib/libnvmm_camera_v3.so \
     vendor/xiaomi/mocha/proprietary/vendor/lib/libnvmm_contentpipe.so:system/vendor/lib/libnvmm_contentpipe.so \
+    vendor/xiaomi/mocha/proprietary/vendor/lib/libnvmmlite.so:system/vendor/lib/libnvmmlite.so \
     vendor/xiaomi/mocha/proprietary/vendor/lib/libnvmmlite_audio.so:system/vendor/lib/libnvmmlite_audio.so \
     vendor/xiaomi/mocha/proprietary/vendor/lib/libnvmmlite_image.so:system/vendor/lib/libnvmmlite_image.so \
-    vendor/xiaomi/mocha/proprietary/vendor/lib/libnvmmlite.so:system/vendor/lib/libnvmmlite.so \
     vendor/xiaomi/mocha/proprietary/vendor/lib/libnvmmlite_utils.so:system/vendor/lib/libnvmmlite_utils.so \
     vendor/xiaomi/mocha/proprietary/vendor/lib/libnvmmlite_video.so:system/vendor/lib/libnvmmlite_video.so \
     vendor/xiaomi/mocha/proprietary/vendor/lib/libnvmm_parser.so:system/vendor/lib/libnvmm_parser.so \
-    vendor/xiaomi/mocha/proprietary/vendor/lib/libnvmm.so:system/vendor/lib/libnvmm.so \
     vendor/xiaomi/mocha/proprietary/vendor/lib/libnvmm_utils.so:system/vendor/lib/libnvmm_utils.so \
     vendor/xiaomi/mocha/proprietary/vendor/lib/libnvmm_writer.so:system/vendor/lib/libnvmm_writer.so \
-    vendor/xiaomi/mocha/proprietary/vendor/lib/libnvobjecttracking.so:system/vendor/lib/libnvobjecttracking.so \
-    vendor/xiaomi/mocha/proprietary/vendor/lib/libnvodm_dtvtuner.so:system/vendor/lib/libnvodm_dtvtuner.so \
-    vendor/xiaomi/mocha/proprietary/vendor/lib/libnvodm_hdmi.so:system/vendor/lib/libnvodm_hdmi.so \
     vendor/xiaomi/mocha/proprietary/vendor/lib/libnvodm_imager.so:system/vendor/lib/libnvodm_imager.so \
-    vendor/xiaomi/mocha/proprietary/vendor/lib/libnvodm_misc.so:system/vendor/lib/libnvodm_misc.so \
     vendor/xiaomi/mocha/proprietary/vendor/lib/libnvodm_query.so:system/vendor/lib/libnvodm_query.so \
-    vendor/xiaomi/mocha/proprietary/vendor/lib/libnvomxadaptor.so:system/vendor/lib/libnvomxadaptor.so \
-    vendor/xiaomi/mocha/proprietary/vendor/lib/libnvomxilclient.so:system/vendor/lib/libnvomxilclient.so \
     vendor/xiaomi/mocha/proprietary/vendor/lib/libnvomx.so:system/vendor/lib/libnvomx.so \
-    vendor/xiaomi/mocha/proprietary/vendor/lib/libnvopt_dvm.so:system/vendor/lib/libnvopt_dvm.so \
+    vendor/xiaomi/mocha/proprietary/vendor/lib/libnvomxilclient.so:system/vendor/lib/libnvomxilclient.so \
     vendor/xiaomi/mocha/proprietary/vendor/lib/libnvos.so:system/vendor/lib/libnvos.so \
     vendor/xiaomi/mocha/proprietary/vendor/lib/libnvparser.so:system/vendor/lib/libnvparser.so \
-    vendor/xiaomi/mocha/proprietary/vendor/lib/libnvremoteevtmgr.so:system/vendor/lib/libnvremoteevtmgr.so \
-    vendor/xiaomi/mocha/proprietary/vendor/lib/libnvremotell.so:system/vendor/lib/libnvremotell.so \
-    vendor/xiaomi/mocha/proprietary/vendor/lib/libnvremoteprotocol.so:system/vendor/lib/libnvremoteprotocol.so \
+    vendor/xiaomi/mocha/proprietary/vendor/lib/libnvptx.so:system/vendor/lib/libnvptx.so \
+    vendor/xiaomi/mocha/proprietary/vendor/lib/libnvrm.so:system/vendor/lib/libnvrm.so \
     vendor/xiaomi/mocha/proprietary/vendor/lib/libnvrmapi_tegra.so:system/vendor/lib/libnvrmapi_tegra.so \
     vendor/xiaomi/mocha/proprietary/vendor/lib/libnvrm_graphics.so:system/vendor/lib/libnvrm_graphics.so \
-    vendor/xiaomi/mocha/proprietary/vendor/lib/libnvrm.so:system/vendor/lib/libnvrm.so \
+    vendor/xiaomi/mocha/proprietary/vendor/lib/libnvRSCompiler.so:system/vendor/lib/libnvRSCompiler.so \
+    vendor/xiaomi/mocha/proprietary/vendor/lib/libnvRSDriver.so:system/vendor/lib/libnvRSDriver.so \
     vendor/xiaomi/mocha/proprietary/vendor/lib/libnvsm.so:system/vendor/lib/libnvsm.so \
-    vendor/xiaomi/mocha/proprietary/vendor/lib/libnvstitching.so:system/vendor/lib/libnvstitching.so \
-    vendor/xiaomi/mocha/proprietary/vendor/lib/libnvtestio.so:system/vendor/lib/libnvtestio.so \
-    vendor/xiaomi/mocha/proprietary/vendor/lib/libnvtestresults.so:system/vendor/lib/libnvtestresults.so \
     vendor/xiaomi/mocha/proprietary/vendor/lib/libnvtnr.so:system/vendor/lib/libnvtnr.so \
     vendor/xiaomi/mocha/proprietary/vendor/lib/libnvtvmr.so:system/vendor/lib/libnvtvmr.so \
-    vendor/xiaomi/mocha/proprietary/vendor/lib/libnvvicsi.so:system/vendor/lib/libnvvicsi.so \
     vendor/xiaomi/mocha/proprietary/vendor/lib/libnvvicsi_v3.so:system/vendor/lib/libnvvicsi_v3.so \
-    vendor/xiaomi/mocha/proprietary/vendor/lib/libnvvpp.so:system/vendor/lib/libnvvpp.so \
-    vendor/xiaomi/mocha/proprietary/vendor/lib/libnvwinsys.so:system/vendor/lib/libnvwinsys.so \
     vendor/xiaomi/mocha/proprietary/vendor/lib/libnvwsi.so:system/vendor/lib/libnvwsi.so \
-    vendor/xiaomi/mocha/proprietary/vendor/lib/libphs.so:system/vendor/lib/libphs.so \
-    vendor/xiaomi/mocha/proprietary/vendor/lib/libtlk_secure_hdcp_up.so:system/vendor/lib/libtlk_secure_hdcp_up.so \
+    vendor/xiaomi/mocha/proprietary/vendor/lib/liboemcrypto.so:system/vendor/lib/liboemcrypto.so \
+    vendor/xiaomi/mocha/proprietary/vendor/lib/libopencv24_tegra.so:system/vendor/lib/libopencv24_tegra.so \
+    vendor/xiaomi/mocha/proprietary/vendor/lib/libperipheral_client.so:system/vendor/lib/libperipheral_client.so \
     vendor/xiaomi/mocha/proprietary/vendor/lib/libtsechdcp.so:system/vendor/lib/libtsechdcp.so \
-    vendor/xiaomi/mocha/proprietary/vendor/lib/libtsec_wrapper.so:system/vendor/lib/libtsec_wrapper.so \
-    vendor/xiaomi/mocha/proprietary/vendor/lib/libussrd.so:system/vendor/lib/libussrd.so \
-    vendor/xiaomi/mocha/proprietary/vendor/lib/libwfd_common.so:system/vendor/lib/libwfd_common.so \
-    vendor/xiaomi/mocha/proprietary/vendor/lib/libwfd_sink.so:system/vendor/lib/libwfd_sink.so \
-    vendor/xiaomi/mocha/proprietary/vendor/lib/libwfd_source.so:system/vendor/lib/libwfd_source.so \
     vendor/xiaomi/mocha/proprietary/vendor/lib/libwvdrm_L1.so:system/vendor/lib/libwvdrm_L1.so \
     vendor/xiaomi/mocha/proprietary/vendor/lib/libwvm.so:system/vendor/lib/libwvm.so \
     vendor/xiaomi/mocha/proprietary/vendor/lib/libWVStreamControlAPI_L1.so:system/vendor/lib/libWVStreamControlAPI_L1.so \
-    vendor/xiaomi/mocha/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so \
-    vendor/xiaomi/mocha/proprietary/vendor/lib/libgov_spincircle.so:system/vendor/lib/libgov_spincircle.so \
     vendor/xiaomi/mocha/proprietary/vendor/firmware/maxim_fp35.bin:system/vendor/firmware/maxim_fp35.bin \
     vendor/xiaomi/mocha/proprietary/vendor/firmware/touch_fusion.cfg:system/vendor/firmware/touch_fusion.cfg \
     vendor/xiaomi/mocha/proprietary/usr/keylayout/tegra-rt5671_headphone_detect.kl:system/usr/keylayout/tegra-rt5671_headphone_detect.kl \
     vendor/xiaomi/mocha/proprietary/usr/keylayout/atmel-maxtouch.kl:system/usr/keylayout/atmel-maxtouch.kl \
     vendor/xiaomi/mocha/proprietary/usr/keylayout/synaptics_dsx.kl:system/usr/keylayout/synaptics_dsx.kl \
-    vendor/xiaomi/mocha/proprietary/vendor/lib/libconnctrl.so:system/vendor/lib/libconnctrl.so \
-    vendor/xiaomi/mocha/proprietary/vendor/lib/libcsm_data.so:system/vendor/lib/libcsm_data.so \
-    vendor/xiaomi/mocha/proprietary/vendor/lib/libdatactrl.so:system/vendor/lib/libdatactrl.so
