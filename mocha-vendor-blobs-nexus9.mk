@@ -118,7 +118,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/mocha/proprietary/vendor/lib/mediadrm/libwvdrmengine.so::system/vendor/lib/mediadrm/libwvdrmengine.so \
     vendor/xiaomi/mocha/proprietary/vendor/lib/libaudioavp.so::system/vendor/lib/libaudioavp.so \
     vendor/xiaomi/mocha/proprietary/vendor/lib/libbt-vendor.so::system/vendor/lib/libbt-vendor.so \
-    vendor/xiaomi/mocha/proprietary/vendor/lib/libclcore_nvidia.so::system/vendor/lib/libclcore_nvidia.so \
+    vendor/xiaomi/mocha/proprietary/vendor/lib/libclcore_nvidia.bc::system/vendor/lib/libclcore_nvidia.bc \
     vendor/xiaomi/mocha/proprietary/vendor/lib/libconnctrl.so:system/vendor/lib/libconnctrl.so \
     vendor/xiaomi/mocha/proprietary/vendor/lib/libcsm_data.so:system/vendor/lib/libcsm_data.so \
     vendor/xiaomi/mocha/proprietary/vendor/lib/libdatactrl.so:system/vendor/lib/libdatactrl.so \
